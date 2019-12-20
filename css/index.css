@@ -176,7 +176,7 @@ header.fixed {
 .zgm2 .bts span{
   width: 0.76rem;
   height: 0.29rem;
-  font:400 .19rem/.29rem  "microsoft yahei";
+  font:400 .22rem/.28rem "microsoft yahei";
   text-align: center;
   color: #f5de9f;
   background: url(../images/bt1.png) no-repeat center top;
@@ -209,7 +209,7 @@ header.fixed {
   box-sizing: border-box;
 }
 .zgm2 .arc .arcl p{
-	font:500 .2rem/.3rem "microsoft yahei";
+	font:500 .22rem/.3rem "microsoft yahei";
 	text-align: left;
 	background:radial-gradient(ellipse,#e7ae87 5%, #fff 15%, #d4c190 60%);
 	background-clip: text;
@@ -256,7 +256,7 @@ header.fixed {
     transition: 0.3s;
 }
 .table tr th{
-	font:400 .2rem/.6rem "microsoft yahei";
+	font:400 .22rem/.6rem "microsoft yahei";
 	color:#f0d490;
 	border: 1px solid #f0d490;
 	width: 15.66%;
@@ -306,7 +306,7 @@ header.fixed {
   -webkit-background-size: 2.45rem;
   background-size: 2.45rem;
   margin-bottom: 0.3rem;
-  padding-top: 0.5rem;
+  padding-top: 0.46rem;
   box-sizing: border-box;
 }
 .zgm4 li h4{
