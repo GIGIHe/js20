@@ -1,0 +1,402 @@
+*{margin: 0;padding: 0;}
+html{ font-family: "Microsoft YaHei"; color:#333; font-size:100px;}
+html,body{width:100%;min-width:7.5rem;height:100%;background: #f4f4f4;}
+li{ list-style:none; }
+a{ text-decoration:none; color:#333; }
+a img{ border:0; }
+img{ vertical-align:middle;}
+table{border-collapse:collapse;border-spacing:0;}
+.clearfix{ *zoom:1; }
+.clearfix:after{ content:""; display:block; clear:both; }
+.fl{float: left}
+.fr{float: right}
+input {/*-webkit-appearance:none;*/outline: none}
+.main{width: 7.5rem;margin: 0 auto}
+.zg-wrap{margin: 0 auto;width: 7.5rem;}
+header {
+    width: 7.5rem;
+    height: .8rem;
+    background: #f2f2f2;
+}
+header a {
+    font:700 .2rem/.4rem "microsoft yahei";
+    color:#fff;
+}
+header a img {
+    float: left;
+}
+header .logo {
+    display: block;
+    float: left;
+    width: 2rem;
+    height: .36rem;
+    margin-top: .2rem;
+    margin-left: .3rem;
+}
+header .zgfb {
+    display: block;
+    float: right;
+    width: 1.15rem;
+    height: .36rem;
+    margin-right: .3rem;
+    margin-top: .2rem;
+}
+header .logo img {
+    width: .75rem;
+    height: .34rem;
+    margin-right: .1rem;
+}
+header .zgfb img {
+    width: .27rem;
+    height: .24rem;
+    margin-top: .12rem;
+}
+header.fixed {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    margin-left: -3.75rem;
+    z-index: 899;
+}
+.navbar {
+    box-shadow: none;
+    background: rgba(70,70,70,0);
+}
+.navbar.active {
+    background: rgb(255,255,255);
+    transition: background 3s;
+}
+.navbar.active a {
+    color:#000;
+}
+/*footer*/
+.foot{
+    position: fixed;
+    bottom:0;
+    width:7.5rem;
+    height:.9rem;
+    overflow: hidden;
+    z-index:999;
+}
+.foot a{
+    float: left;
+    width:3.75rem;
+    font:.26rem/0.9rem 'Microsoft YaHei';
+    text-align: center;
+}
+.foot a:first-child{
+    background: #f2f2f2;
+    color: #000;
+}
+.foot a:first-child img {
+    width: .47rem;
+    height: .4rem;
+    margin-right: .1rem;
+}
+.foot a:last-child{
+    background: #dc2f3c;
+    color: #fff;
+}
+.foot a:last-child img {
+    width: .3rem;
+    height: .38rem;
+    margin-right: .1rem;
+}
+
+
+/*m_banner*/
+.mban {
+    width: 7.5rem;
+    height: 5.84rem;
+    background: url(../images/ban.jpg) no-repeat center top;
+    -webkit-background-size: 7.5rem;
+    background-size: 7.5rem;
+}
+.mban h1 {
+    text-indent: -9999px;
+    font-size: 0;
+    height: 0;
+    width: 0;
+}
+/*zgm1*/
+.zgm1 {
+  width:7.5rem;
+  height: 2.97rem;
+  background: url(../images/m1.jpg) no-repeat center top;
+  -webkit-background-size: 7.5rem;
+  background-size: 7.5rem;
+}
+.zgm1 p{
+  font:400 .2rem/.26rem "microsoft yahei";
+  color:#ffe690;
+  text-align: center;
+  padding-top: .12rem;
+  margin-bottom: .3rem;
+}
+.zgm1 .txt{
+  height: .53rem;
+  background: url(../images/m1.png) no-repeat  left 0.72rem  top;
+  -webkit-background-size: 6.37rem;
+  background-size: 6.37rem;
+}
+/*zgm2*/
+.zgm2,
+.zgm3,
+.zgm4,
+.zgm6{
+  width:7.5rem;
+  background: url(../images/m2.jpg) repeat-y center top;
+  -webkit-background-size: 7.5rem;
+  background-size: 7.5rem;
+  padding-bottom: .3rem;
+}
+.h2-wrap{
+  width: 3.99rem;
+  height: .83rem;
+  margin: auto;
+  background: url(../images/tit.png) no-repeat left -0.19rem top;
+  background-size: 3.99rem .83rem;
+  -webkit-background-size: 3.99rem .83rem;
+}
+.zgm2 h2,
+.zgm3 h2,
+.zgm6 h2{
+  font:700 .27rem/.83rem "microsoft yahei";
+	text-align: center;
+	background:radial-gradient(ellipse,#d3bb83 5%, #fae8bc 15%, #f8ebc8 60%);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.zgm2 .bts{
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: .2rem;
+}
+.zgm2 .bts span{
+  width: 0.76rem;
+  height: 0.29rem;
+  font:400 .19rem/.29rem  "microsoft yahei";
+  text-align: center;
+  color: #f5de9f;
+  background: url(../images/bt1.png) no-repeat center top;
+  background-size:.76rem .29rem;
+  -webkit-background-size:.76rem .29rem;
+  margin-bottom: 0.15rem;
+  margin-left:0.07rem;
+  transition: 0.2s;
+}
+.zgm2 .bts span.on{
+  background: url(../images/bt2.png) no-repeat center top;
+  background-size:.76rem .29rem;
+  -webkit-background-size:.76rem .29rem;
+  color: #1a1819;
+}
+.zgm2 .arc{
+   /* display: flex; */
+   width: 7.49rem;
+   height: 1.02rem;
+   margin: auto;
+   background: url(../images/arc.png) no-repeat center top;
+   background-size:7.49rem 1.02rem;
+   -webkit-background-size:7.49rem 1.02rem;
+   position: relative;
+   overflow: hidden;
+}
+.zgm2 .arc .arcl{
+  padding-left: .35rem;
+  padding-top: .05rem;
+  box-sizing: border-box;
+}
+.zgm2 .arc .arcl p{
+	font:500 .2rem/.3rem "microsoft yahei";
+	text-align: left;
+	background:radial-gradient(ellipse,#e7ae87 5%, #fff 15%, #d4c190 60%);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.zgm2 .arc .arcr{
+  width: 3.65rem;
+  position: absolute;
+  right: 0.06rem;
+  top: .2rem;
+}
+.zgm2 .arc .arcr a{
+	display: block;
+  width: 3.65rem;
+  height: 0.81rem;
+	font:500 .2rem/0.81rem "microsoft yahei";
+	text-align: center;
+	color:#f7e385;
+  background: url(../images/zx.png) no-repeat center top;
+  background-size:3.65rem .81rem;
+  -webkit-background-size:3.65rem .81rem;
+}
+/*zgm3*/
+.zgm3 .m3{
+  width:7.5rem;
+  height: 5.35rem;
+  background: url(../images/m3.png) repeat-y center top;
+  -webkit-background-size: 7.5rem;
+  background-size: 7.5rem;
+  padding-top: .16rem;
+  box-sizing: border-box;
+}
+/*table 表格样式start*/
+.table {
+	width: 7.4rem;
+	border-collapse: collapse;
+	margin: 0 auto;
+	text-align: center;
+	table-layout:fixed;
+}
+.table tr {
+	
+    transition: 0.3s;
+}
+.table tr th{
+	font:400 .2rem/.6rem "microsoft yahei";
+	color:#f0d490;
+	border: 1px solid #f0d490;
+	width: 15.66%;
+}
+.table tr th:nth-child(2){
+	width: 21.66%;
+}
+.table tr td{
+	font:400 .2rem "microsoft yahei";
+	color:#f0d490;
+	border-right:1px solid #f0d490;
+}
+.table tr td a {
+	display: block;
+	width: 1rem;
+	height: .4rem;
+	font:400 .2rem "microsoft yahei";
+	color:#f0d490;
+	text-align: center;
+	border-radius: .2rem;
+	margin: 0 auto;
+	transition: 0.3s
+}
+
+.table tr td:last-child{
+	border-right:none;
+}
+.table tr {
+    border:1px solid #f0d490;
+    border-bottom: none;
+}
+.table tr:last-child{
+	border-bottom:1px solid #f0d490;
+}
+/*table end*/
+/*zgm4*/
+
+.zgm4 .fw{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.zgm4 li{
+  width:2.45rem;
+  height: 1.78rem;
+  background: url(../images/li2.png) repeat-y center top;
+  -webkit-background-size: 2.45rem;
+  background-size: 2.45rem;
+  margin-bottom: 0.3rem;
+  padding-top: 0.5rem;
+  box-sizing: border-box;
+}
+.zgm4 li h4{
+  font:400 .25rem "microsoft yahei";
+	color:#f0d490;
+  text-align: center;
+  margin-bottom: 0.15rem;
+}
+.zgm4 li p{
+  font:400 .2rem "microsoft yahei";
+	color:#f0d490;
+	text-align: center;
+}
+/* zgm5 */
+.zgm5{
+  width:7.5rem;
+  height: 2.52rem;
+  background: url(../images/m5.jpg) repeat-y center top;
+  -webkit-background-size: 7.5rem;
+  background-size: 7.5rem;
+  display: flex;
+  justify-content: space-around;
+  padding-top: .2rem;
+  box-sizing: border-box;
+}
+.zgm5 .img1 img {
+  width: 3.58rem;
+  height: 1.92rem;
+}
+.zgm5 .img2 img{
+  width: 3.64rem;
+  height: 1.92rem;
+}
+.zgm6 .m6{
+  height: 7.72rem;
+  background: url(../images/m6.png) no-repeat center bottom;
+  background-size: 7.5rem;
+  padding-top: 0.4rem;
+  box-sizing: border-box;
+}
+.zgm6 h3{
+  font:400 .2rem "microsoft yahei";
+	color:#fde19f;
+  text-align: center;
+  height: 0.4rem;
+  background: url(../images/light1.png) no-repeat center bottom;
+  background-size: 3.82rem;
+  margin-bottom: .2rem;
+}
+.zgm6 h4{
+  font:400 .2rem "microsoft yahei";
+	color:#fde19f;
+  text-align: center;
+  height: 0.4rem;
+  background: url(../images/light2.png) no-repeat center bottom;
+  background-size: 1.13rem;
+  margin-bottom: .3rem;
+}
+.bs,
+.ms{
+  display: flex;
+  /* justify-content: space-around; */
+  flex-wrap: wrap;
+}
+.row{
+  display: flex;
+  justify-content: space-between;
+  width: 3rem;
+  margin-bottom: 0.25rem;
+  margin-left: .5rem;
+}
+.row p{
+  font:400 .2rem "microsoft yahei";
+	color:#f0d490;
+	text-align: center;
+}
+.row a{
+  font:400 .2rem "microsoft yahei";
+	color:#f0d490;
+  text-align: center;
+  width: 1.13rem;
+  height: 0.28rem;
+  background:url(../images/bt4.png) no-repeat center top;
+  background-size: 1.13rem;
+  transition: 0.2s;
+}
+.row a.hover{
+  width: 1.12rem;
+  height: 0.28rem;
+  color: #ac6500;
+  background:url(../images/bt3.png) no-repeat center top;
+  background-size: 1.12rem;
+}
