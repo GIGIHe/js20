@@ -158,6 +158,14 @@ header.fixed {
   background-size: 3.99rem .83rem;
   -webkit-background-size: 3.99rem .83rem;
 }
+.zgm3 .h2-wrap{
+  width:7.5rem;
+  height: .83rem;
+  margin: auto;
+  background: url(../images/titb.png) no-repeat left top;
+  background-size:7.5rem .83rem;
+  -webkit-background-size:7.5rem .83rem;
+}
 .zgm2 h2,
 .zgm3 h2,
 .zgm6 h2{
